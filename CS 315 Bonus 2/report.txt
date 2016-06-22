@@ -1,0 +1,135 @@
+Please enter the integres to be sorted (one on each line). Type any non-integer input to quit
+5
+l
+
+Please enter the integer value associated with the sorting algorithm you wish to use :
+1. Insertion Sort
+2. Selection Sort
+3. Quicksort
+4. Mergesort
+Enter any other key to quit
+2
+Vector before sorting
+5
+Vector after using Selection Sort
+5
+************* Comparisons made for n = 100 in descending order *************
+Insertion Sort made 4950 comparisons
+Selection Sort made 4950 comparisons
+Quicksort made 676 comparisons
+Mergesort made 415 comparisons
+
+************* Comparisons made for n = 200 in descending order *************
+Insertion Sort made 20100 comparisons
+Selection Sort made 19900 comparisons
+Quicksort made 1646 comparisons
+Mergesort made 931 comparisons
+
+************* Comparisons made for n = 400 in descending order *************
+Insertion Sort made 80200 comparisons
+Selection Sort made 79800 comparisons
+Quicksort made 3846 comparisons
+Mergesort made 2063 comparisons
+
+************* Comparisons made for n = 800 in descending order *************
+Insertion Sort made 320400 comparisons
+Selection Sort made 319600 comparisons
+Quicksort made 7878 comparisons
+Mergesort made 4527 comparisons
+
+************* Comparisons made for n = 1600 in descending order *************
+Insertion Sort made 1280800 comparisons
+Selection Sort made 1279200 comparisons
+Quicksort made 17954 comparisons
+Mergesort made 9855 comparisons
+
+************* Comparisons made for n = 3200 in descending order *************
+Insertion Sort made 5121600 comparisons
+Selection Sort made 5118400 comparisons
+Quicksort made 40216 comparisons
+Mergesort made 21311 comparisons
+
+************* Comparisons made for n = 6400 in descending order *************
+Insertion Sort made 20483200 comparisons
+Selection Sort made 20476800 comparisons
+Quicksort made 101198 comparisons
+Mergesort made 45823 comparisons
+
+************* Comparisons made for n = 100 in ascending order *************
+Insertion Sort made 100 comparisons
+Selection Sort made 4950 comparisons
+Quicksort made 667 comparisons
+Mergesort made 455 comparisons
+
+************* Comparisons made for n = 200 in ascending order *************
+Insertion Sort made 200 comparisons
+Selection Sort made 19900 comparisons
+Quicksort made 1611 comparisons
+Mergesort made 1011 comparisons
+
+************* Comparisons made for n = 400 in ascending order *************
+Insertion Sort made 400 comparisons
+Selection Sort made 79800 comparisons
+Quicksort made 3472 comparisons
+Mergesort made 2223 comparisons
+
+************* Comparisons made for n = 800 in ascending order *************
+Insertion Sort made 800 comparisons
+Selection Sort made 319600 comparisons
+Quicksort made 8279 comparisons
+Mergesort made 4847 comparisons
+
+************* Comparisons made for n = 1600 in ascending order *************
+Insertion Sort made 1600 comparisons
+Selection Sort made 1279200 comparisons
+Quicksort made 21281 comparisons
+Mergesort made 10495 comparisons
+
+************* Comparisons made for n = 3200 in ascending order *************
+Insertion Sort made 3200 comparisons
+Selection Sort made 5118400 comparisons
+Quicksort made 45551 comparisons
+Mergesort made 22591 comparisons
+
+************* Comparisons made for n = 6400 in ascending order *************
+Insertion Sort made 6400 comparisons
+Selection Sort made 20476800 comparisons
+Quicksort made 100555 comparisons
+Mergesort made 48383 comparisons
+
+For n = 100 & using Insertion Sort we had an average of 2689 comparisons
+For n = 100 & using Selection Sort we had an average of 4950 comparisons
+For n = 100 & using Quicksort we had an average of 656 comparisons
+For n = 100 & using Mergesort we had an average of 648 comparisons
+
+For n = 200 & using Insertion Sort we had an average of 10633 comparisons
+For n = 200 & using Selection Sort we had an average of 19900 comparisons
+For n = 200 & using Quicksort we had an average of 1577 comparisons
+For n = 200 & using Mergesort we had an average of 1495 comparisons
+
+For n = 400 & using Insertion Sort we had an average of 40625 comparisons
+For n = 400 & using Selection Sort we had an average of 79800 comparisons
+For n = 400 & using Quicksort we had an average of 3382 comparisons
+For n = 400 & using Mergesort we had an average of 3364 comparisons
+
+For n = 800 & using Insertion Sort we had an average of 161029 comparisons
+For n = 800 & using Selection Sort we had an average of 319600 comparisons
+For n = 800 & using Quicksort we had an average of 8242 comparisons
+For n = 800 & using Mergesort we had an average of 7499 comparisons
+
+For n = 1600 & using Insertion Sort we had an average of 643642 comparisons
+For n = 1600 & using Selection Sort we had an average of 1279200 comparisons
+For n = 1600 & using Quicksort we had an average of 21460 comparisons
+For n = 1600 & using Mergesort we had an average of 16628 comparisons
+
+For n = 3200 & using Insertion Sort we had an average of 2573656 comparisons
+For n = 3200 & using Selection Sort we had an average of 5118400 comparisons
+For n = 3200 & using Quicksort we had an average of 42624 comparisons
+For n = 3200 & using Mergesort we had an average of 36464 comparisons
+
+For n = 6400 & using Insertion Sort we had an average of 10366000 comparisons
+For n = 6400 & using Selection Sort we had an average of 20476800 comparisons
+For n = 6400 & using Quicksort we had an average of 95526 comparisons
+For n = 6400 & using Mergesort we had an average of 79360 comparisons
+
+Press any key to continue . . .

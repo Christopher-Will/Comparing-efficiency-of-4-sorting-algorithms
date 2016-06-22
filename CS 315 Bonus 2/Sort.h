@@ -1,3 +1,5 @@
+// Define all the functions to be used in this project in a header file
+
 #ifndef SORT_H
 #define SORT_H
 

@@ -7,10 +7,10 @@ void insertion_sort(vector<int>& vec, int& comparisons) // sort the integers in 
 {
 	for (int i = 0; i < vec.size(); i++) //loop over the vector
 	{
-		int k = i; // set k to the current iteration #
-		while (k >0 && vec[k] < vec[k-1]) // loop so long as k is not 0 and the current kth value is less than the previous
+		int k = i; // set k to the current iteration value
+		while (k > 0 && vec[k] < vec[k-1]) // loop so long as k is not 0 and the current kth value is less than the previous
 		{
-			comparisons++;
+			comparisons++; 
 			int temp = vec[k]; // swap the kth and kth-1 elements
 			vec[k] = vec[k - 1];
 			vec[k - 1] = temp;
@@ -28,9 +28,7 @@ void selection_sort(vector<int>& vec, int& comparisons)
 		{
 			comparisons++;
 			if (vec[j] < vec[min])// find the current min
-			{
 				min = j;
-			}
 		}
 		
 		if (min != i) //swap if the min and i are different
@@ -42,7 +40,7 @@ void selection_sort(vector<int>& vec, int& comparisons)
 	}
 }
 
-int partition(vector<int>& vec, int left, int right, int& comparisons)
+int partition(vector<int>& vec, int left, int right, int& comparisons) //used to partition elements for quicksort
 {
 	int pivot_index = left + rand() % (right - left + 1); // pick a random value as the pivot
 	int pivot = vec[pivot_index]; // find the value at the pivot index
@@ -77,17 +75,6 @@ void quicksort(vector<int>& vec, int left, int right, int& comparisons)
 		quicksort(vec, left, middle - 1, comparisons); // do quicksort on the left half of the list
 		quicksort(vec, middle + 1, right, comparisons); //do quicksort on the right half of the list
 	}
-}
-
-
-void display() //display the choices for sorting
-{
-
-	cout << "1. Insertion Sort " << endl;
-	cout << "2. Selection Sort " << endl;
-	cout << "3. Quicksort " << endl;
-	cout << "4. Mergesort " << endl;
-	cout << "Enter any other key to quit " << endl;
 }
 
 void merge_sort(vector<int>& vec, int left, int right, int& comparisons)
@@ -162,4 +149,14 @@ void shuffle(vector<int>& vec) // shuffle the vector
 		vec[i] = vec[j];
 		vec[j] = temp;
 	}
+}
+
+void display() //display the choices for sorting
+{
+
+	cout << "1. Insertion Sort " << endl;
+	cout << "2. Selection Sort " << endl;
+	cout << "3. Quicksort " << endl;
+	cout << "4. Mergesort " << endl;
+	cout << "Enter any other key to quit " << endl;
 }
